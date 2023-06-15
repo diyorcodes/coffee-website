@@ -1,6 +1,5 @@
-# coffee-website
-# Coffee Website
-### Responsive Coffee Website
+# coffee website
+### Coffee Website
 
 - Responsive Coffee Website Design Using HTML CSS & JavaScript
 - Contains animations when scrolling.
