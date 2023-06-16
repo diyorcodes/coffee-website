@@ -351,6 +351,14 @@ img {
   transform: translateY(-.35rem);
 }
 
+.products__name,
+.products__price {
+  font-size: var(--h2-font-size);
+  font-family: var(--second-font);
+  font-weight: var(--font-regular);
+  line-height: 120%;
+}
+
 /*=============== ABOUT ===============*/
 
 
