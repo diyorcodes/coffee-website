@@ -208,6 +208,43 @@ img {
 
 
 /*=============== HOME ===============*/
+.home {
+  background: linear-gradient(180deg, 
+              var(--first-color) 0%,
+              var(--first-color-alt) 100%);
+}
+
+.home__container {
+  padding-top: 2rem;
+  row-gap: 2rem;
+}
+
+.home__data {
+  text-align: center;
+}
+
+.home__subtitle {
+  font-size: var(--normal-font-size);
+  color: var(--second-color);
+  font-weight: var(--font-medium);
+  margin-bottom: .75rem;
+}
+
+.home__title,
+.home__description {
+  color: var(--white-color);
+}
+
+.home__title {
+  text-align: initial;
+  font-size: var(--biggest-font-size);
+  font-family: var(--second-font);
+  font-weight: var(--font-regular);
+  line-height: 120%;
+  margin: 0 auto 2rem;
+  position: relative;
+  width: max-content;
+} 
 
 
 /*=============== BUTTON ===============*/
