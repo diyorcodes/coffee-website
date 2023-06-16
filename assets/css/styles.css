@@ -291,7 +291,14 @@ img {
 }
 
 /*=============== PRODUCTS ===============*/
+.products {
+  background-color: var(--first-color-alt);
+}
 
+.products__bg {
+  background-color: var(--first-color);
+  border-radius: var(--border-section);
+}
 
 /*=============== ABOUT ===============*/
 
