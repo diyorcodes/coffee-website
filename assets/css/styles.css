@@ -326,6 +326,31 @@ img {
   box-shadow: 0 8px 32px hsla(12, 32%, 8%, .6);
   transform: translateY(.35rem);
 }
+
+.products__data,
+.products__card {
+  text-align: center;
+  color: var(--white-color);
+}
+
+.products__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 3.5rem 4.5rem;
+}
+
+.products__img {
+  width: 120px;
+  filter: drop-shadow(0 4px 16px hsl(12, 32%, 16%));
+  margin-bottom: 1.5rem;
+  transition: transform .4s;
+}
+
+.products__img:hover {
+  transform: translateY(-.35rem);
+}
+
 /*=============== ABOUT ===============*/
 
 
