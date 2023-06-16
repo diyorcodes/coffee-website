@@ -300,8 +300,32 @@ img {
   border-radius: var(--border-section);
 }
 
-.
+.products__container {
+  row-gap: 3.5rem;
+}
 
+.products__button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  background-color: var(--first-color-alt);
+  padding: 1rem 1.5rem;
+  border-radius: 4rem;
+  color: var(--white-color);
+  font-weight: var(--font-medium);
+  box-shadow: 0 8px 24px hsla(12, 32%, 8%, .5);
+  margin-bottom: 2rem;
+  transition: box-shadow .3s, transform .3s;
+}
+
+.products__button i {
+  font-size: 1.5rem;
+}
+
+.products__button:hover {
+  box-shadow: 0 8px 32px hsla(12, 32%, 8%, .6);
+  transform: translateY(.35rem);
+}
 /*=============== ABOUT ===============*/
 
 
