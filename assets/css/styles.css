@@ -523,7 +523,7 @@ img {
 }
 
 .footer__bg {
-  background-color: var(--first-color);
+  background-color: var(--first-color-alt);
   border-radius: var(--border-section);
 }
 
@@ -643,7 +643,22 @@ img {
 }
 
 
+
+
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar{
+  width: .6rem;
+  background-color: hsl(12, 8%, 65%);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(12, 8%, 45%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(12, 8%, 35%);
+}
+
 
 
 /*=============== SCROLL UP ===============*/
