@@ -390,7 +390,18 @@ img {
 }
 
 /*=============== STEPS ===============*/
+.steps {
+  background-color: var(--white-color);
+}
 
+.steps__bg {
+  background-color: var(--first-color);
+  border-radius: var(--border-section);
+}
+
+.steps__container {
+  padding-top: 2rem;
+}
 
 /*=============== TESTIMONIAL ===============*/
 
