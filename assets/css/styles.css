@@ -392,6 +392,7 @@ img {
 /*=============== STEPS ===============*/
 .steps {
   background-color: var(--white-color);
+  position: relative;
 }
 
 .steps__bg {
@@ -411,6 +412,7 @@ img {
 .steps__content {
   display: grid;
   row-gap: 4rem;
+  position: relative;
 }
 
 .steps__card {
@@ -456,6 +458,34 @@ img {
   font-weight: var(--font-semi-bold);
   color: var(--first-color);
   outline: 10px solid var(--first-color);
+}
+
+.steps__card-move,
+.steps__card-move .steps__circle {
+  margin-left: auto;
+}
+
+.steps__card-move, .steps__description {
+  text-align: right;
+}
+
+.steps__border {
+  position: absolute;
+  left: 3rem;
+  right: 0;
+  top: 7.5rem;
+  margin: 0 auto;
+}
+
+.steps__bg-img {
+  position: absolute;
+  top: 14rem;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  object-position: -132px;
+  opacity: .15;
 }
 
 /*=============== TESTIMONIAL ===============*/
