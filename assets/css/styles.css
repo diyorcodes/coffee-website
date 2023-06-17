@@ -525,6 +525,38 @@ img {
   background-color: var(--first-color);
   border-radius: var(--border-section);
 }
+
+.footer__container {
+  padding-block: 4rem 7rem;
+  row-gap: 4.5rem;
+}
+
+.footer__data {
+  text-align: center;
+  row-gap: 4.5rem;
+}
+
+.footer__logo,
+.footer__title,
+.footer__input,
+.footer__description,
+.footer__social-link {
+  color: var(--white-color);
+}
+
+.footer__logo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  font-size: var(--h3-font-size);
+  font-family: var(--second-font);
+  margin-bottom: 1rem;
+}
+
+.footer__logo img {
+  width: 28px;
+}
+
 /*=============== SCROLL BAR ===============*/
 
 
