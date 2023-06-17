@@ -557,6 +557,57 @@ img {
   width: 28px;
 }
 
+.footer__title {
+  font-size: var(--big-font-size);
+  font-family: var(--second-font);
+  font-weight: var(--font-regular);
+  line-height: 120%;
+}
+
+.footer__form {
+  row-gap: 1rem;
+}
+
+.footer__input,
+.footer__button {
+  border: none;
+  outline: none;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.footer__input {
+  width: 100%;
+  background: transparent;
+  border: 2px solid var(--text-color-light);
+  padding: 1.15rem 1.5rem;
+  border-radius: 4rem;
+}
+
+.footer__input::placeholder {
+  color: var(--text-color-light);
+}
+
+.footer__button {
+  padding-block: 1.25rem;
+  justify-content: center;
+  cursor: pointer;
+} 
+
+.footer__description {
+  font-size: var(--small-font-size);
+}
+
+.footer__privacy {
+  color: 
+  var(--second-color);
+}
+
+.footer__privacy:hover {
+  text-decoration: underline;
+}
+
 /*=============== SCROLL BAR ===============*/
 
 
