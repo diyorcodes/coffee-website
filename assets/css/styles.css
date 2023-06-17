@@ -360,7 +360,28 @@ img {
 }
 
 /*=============== ABOUT ===============*/
+.about {
+  background-color: var(--first-color);
+}
 
+.about__bg {
+  background-color: var(--white-color);
+  border-radius: var(--border-section);
+}
+
+.about__container {
+  row-gap: 3rem;
+}
+
+.about__data {
+  text-align: center;
+}
+
+.about__img {
+  width: 320px;
+  border-radius: 1rem;
+  justify-self: center;
+}
 
 /*=============== STEPS ===============*/
 
