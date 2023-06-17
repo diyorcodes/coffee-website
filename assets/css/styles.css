@@ -517,8 +517,14 @@ img {
 }
 
 /*=============== FOOTER ===============*/
+.footer {
+  background-color: var(--white-color);
+}
 
-
+.footer__bg {
+  background-color: var(--first-color);
+  border-radius: var(--border-section);
+}
 /*=============== SCROLL BAR ===============*/
 
 
