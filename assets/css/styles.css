@@ -403,6 +403,34 @@ img {
   padding-top: 2rem;
 }
 
+.steps .section__title,
+.steps__description {
+  color: var(--white-color);
+}
+
+.steps__content {
+  display: grid;
+  row-gap: 4rem;
+}
+
+.steps__card {
+  width: 250px;
+  z-index: 10;
+}
+
+.steps__circle {
+  width: 150px;
+  height: 150px;
+  background-color: var(--first-color-light);
+  border-radius: 50%;
+  box-shadow: 0 8px 32px hsla(12, 32%, 8%, .3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
 /*=============== TESTIMONIAL ===============*/
 
 
