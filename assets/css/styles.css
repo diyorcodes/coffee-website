@@ -668,23 +668,15 @@ img {
   bottom: -50%;
   background: linear-gradient(180deg,
               var(--first-color) 0%
-              var(--first-color-alt) 100%);
+              var(--first-cilor-alt) 100%);
   box-shadow: 0 0 8px hsla(12, 32%, 12%, .5);
   color: var(--white-color);
   font-size: 1.1rem;
-
-
- 
   display: inline-flex;
   padding: .6rem;
   border-radius: 50%;
   z-index: var(--z-tooltip);
-  /* border: 1px solid var(--first-color); */
-
-
-  
   transition: bottom .5s transform .3s;
-  transition: .3s ease;
 }
 
 .scrollup:hover {
@@ -694,7 +686,9 @@ img {
 }
 
 /* Show Scroll Up */
-
+.show-scroll {
+  bottom: 7rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
