@@ -431,6 +431,33 @@ img {
   margin-bottom: 1.5rem;
 }
 
+.steps__img {
+  width: 120px;
+  filter: drop-shadow(0 4px 16px hsl(12, 32%, 16%));
+  transition: transform .3s;
+}
+
+.steps__img:hover {
+  transform: translateY(-.35rem);
+}
+
+.steps__subcircle {
+  width: 50px;
+  height: 50px;
+  background-color: var(--second-color);
+  position: absolute;
+  top: -.75rem;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--first-color);
+  outline: 10px solid var(--first-color);
+}
+
 /*=============== TESTIMONIAL ===============*/
 
 
