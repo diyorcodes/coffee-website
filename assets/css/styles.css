@@ -519,6 +519,7 @@ img {
 /*=============== FOOTER ===============*/
 .footer {
   background-color: var(--white-color);
+  position: relative;
 }
 
 .footer__bg {
@@ -529,6 +530,7 @@ img {
 .footer__container {
   padding-block: 4rem 7rem;
   row-gap: 4.5rem;
+  position: relative;
 }
 
 .footer__data {
@@ -607,6 +609,39 @@ img {
 .footer__privacy:hover {
   text-decoration: underline;
 }
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.footer__social-link {
+  font-size: 1.25rem;
+  transition: color .3s;
+}
+
+.footer__social-link:hover {
+  color: var(--second-color);
+}
+
+.footer__copy {
+  color: var(--text-color-light);
+  font-size: var(--smaller-font-size);
+  text-align: center;
+}
+
+.footer__bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: -172px;
+  opacity: .15;
+}
+
 
 /*=============== SCROLL BAR ===============*/
 
