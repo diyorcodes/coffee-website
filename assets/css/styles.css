@@ -202,7 +202,13 @@ img {
 }
 
 /* Change background header */
+.scroll-header {
+  box-shadow: 0 2px 8px hsla(12, 32%, 12%,.5);
+}
 
+.scroll-header .header__border {
+  opacity: 0;
+}
 
 /* Active link */
 
