@@ -755,3 +755,34 @@ img {
 }
 
 /* For large devices */
+@media screen and (min-width: 1023px) {
+  .section {
+    padding-block: 7.5rem 5.5rem;
+    --border-section: 104px 104px 0 0;
+  }
+
+  .nav {
+    height: calc(var(--header-height) + 2rem);
+    justify-content: space-between;
+  }
+
+  .nav__logo img {
+    width: 32px;
+  }
+
+  .nav__menu {
+    width: initial;
+  }
+
+  .nav__list {
+    column-gap: 4.5rem;
+  }
+
+  .nav__link {
+    font-size: var(--normal-font-size);
+  }
+
+  .nav__link i {
+    display: none;
+  }
+}
