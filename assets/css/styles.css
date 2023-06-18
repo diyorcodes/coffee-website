@@ -785,4 +785,46 @@ img {
   .nav__link i {
     display: none;
   }
+
+  .home__container {
+    grid-template-columns: max-content 440px;
+    align-items: center;
+    padding-top: 3rem;
+  }
+
+  .home__img {
+    order: -1;
+    width: 450px;
+  }
+
+  .home__data {
+    text-align: initial;
+  }
+
+  .home__title img {
+    width: 120px;
+  }
+
+  .home__description {
+    margin-bottom: 3rem;
+  }
+
+  .products__container {
+    grid-template-columns: 418px 535px;
+    align-items: center;
+  }
+
+  .products__content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .products__name,
+  .products__price {
+    font-size: var(--h3-font-size);
+  }
+
+
+
+
+
 }
