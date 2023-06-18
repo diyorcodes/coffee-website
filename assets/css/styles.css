@@ -711,6 +711,34 @@ img {
   .home__title img {
     bottom: 2.5rem;
   }
+
+  .products__content {
+    grid-template-columns: 1fr;
+  }
+
+  .steps__content {
+    row-gap: 3rem;
+  }
+
+  .steps__card {
+    width: initial;
+  }
+
+  .steps__border {
+    left: 0;
+    top: 5.5rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* For medium devices */
