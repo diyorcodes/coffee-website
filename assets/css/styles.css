@@ -729,19 +729,29 @@ img {
     top: 5.5rem;
   }
 
+}
 
-
-
-
-
-
-
-
-
-
+@media screen and (min-width: 400px) {
+  .steps__content {
+    grid-template-columns: 325px;
+    justify-content: center;
+  }
 }
 
 /* For medium devices */
+@media screen and (min-width: 576px) {
+  .nav__menu {
+    width: 376px;
+  }
 
+  .home__container,
+  .products__container,
+  .about__container,
+  .testimonial__container,
+  .footer__container {
+    grid-template-columns: 400px;
+    justify-content: center;
+  }
+}
 
 /* For large devices */
