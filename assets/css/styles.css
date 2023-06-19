@@ -868,6 +868,15 @@ img {
     margin-bottom: 3rem;
   }
 
+  .steps__circle {
+    width: 260px;
+    height: 260px;
+  }
+
+  .steps__img {
+    width: 120px;
+  }
+
 
 
 
