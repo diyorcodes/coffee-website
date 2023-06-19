@@ -874,7 +874,45 @@ img {
   }
 
   .steps__img {
-    width: 120px;
+    width: 210px;
+  }
+
+  .steps__subcircle  {
+    width: 85px;
+    height: 85px;
+    top: -1.25rem;
+    outline: 15px solid var(--first-color);
+  }
+
+  .steps__border {
+    transform: rotate(85deg);
+    width: 200px;
+    left: 0;
+    top: 2rem;
+  }
+
+  .steps__bg-img {
+    top: 0;
+    height: 100%;
+    object-position: initial;
+  }
+
+  .testimonial__container {
+    grid-template-columns: 510px max-content;
+    align-items: center;
+  }
+
+  .testimonial__img {
+    width: 450px;
+  }
+
+  .testimonial__data,
+  .testimonial__data .section__title {
+    text-align: initial;
+  }
+
+  .testimonial__data .section__title {
+    margin-bottom: 3rem;
   }
 
 
