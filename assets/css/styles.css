@@ -633,6 +633,18 @@ img {
   text-align: center;
 }
 
+.footer__copy a {
+  font-size: var(--smaller-font-size);
+  margin-bottom: 2rem;
+  color: var(--text-color-light);
+  transition: .3s ease;
+}
+
+.footer__copy a:hover {
+  color: var(--second-color);
+  text-decoration: underline;
+}
+
 .footer__bg-img {
   position: absolute;
   top: 0;
@@ -668,9 +680,9 @@ img {
   position: fixed;
   right: 1rem;
   bottom: -50%;
-  background: linear-gradient(180deg,
+  background: linear-gradient(180deg, 
               var(--first-color) 0%,
-              var(--first-cilor-alt) 100%);
+              var(--first-color-alt) 100%); 
   box-shadow: 0 0 8px hsla(12, 32%, 12%, .5);
   color: var(--white-color);
   font-size: 1.1rem;
@@ -679,6 +691,8 @@ img {
   border-radius: 50%;
   z-index: var(--z-tooltip);
   transition: bottom .5s transform .3s;
+
+  
 }
 
 .scrollup:hover {
@@ -915,8 +929,94 @@ img {
     margin-bottom: 3rem;
   }
 
+  .footer__container {
+    grid-template-columns: initial;
+    justify-content: initial;
+    row-gap: 6rem;
+    padding-block: 6rem 3rem;
+  }
 
+  .footer__data {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+    text-align: initial;
+  }
 
+  .footer__logo {
+    margin-bottom: 1.5rem;
+  }
 
+  .footer__logo img {
+    width: 32px;
+  }
 
+  .footer__title {
+    font-size: var(--h1-font-size);
+  }
+
+  .footer__form {
+    width: 360px;
+    row-gap: 1.5rem;
+  }
+
+  .footer__content {
+    row-gap: 4rem;
+  }
+
+  .footer__social {
+    column-gap: 3rem;
+  }
+
+  .footer__social-link {
+    font-size: 1.5rem;
+  }
+
+  .footer__bg-img {
+    object-position: top;
+  }
+
+  .scrollup {
+    right: 3rem;
+  }
+
+  .show-scroll {
+    bottom: 3rem;
+  }
+
+}
+
+@media screen and (min-width: 1152px) {
+  .container {
+    margin-inline: auto;
+  }
+}
+
+@media screen and (min-width: 1248px) {
+  .home__container {
+    column-gap: 4.5rem;
+  }
+
+  .home__img {
+    width: 550px;
+  }
+
+  .products__container {
+    column-gap: 9rem;
+  }
+
+  .about__container {
+    column-gap: 6.5rem;
+  }
+
+  .about__img {
+    width: 550px;
+  }
+
+  .testimonial__container {
+    column-gap: 2rem;
+  }
+
+  .testimonial__img {
+    width: 550px;
+  }
 }
